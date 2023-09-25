@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "463079984436",
+    "project_id": "uniplanskj",
+    "storage_bucket": "uniplanskj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463079984436:android:4d4551df0194e68d12e961",
+        "android_client_info": {
+          "package_name": "com.shivskj.uniplan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463079984436-8poh7sbnur1jccn6bdsi3ip0i26qe09j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shivskj.uniplan",
+            "certificate_hash": "8aa6aab8a70b160b2b8233d6676f576c4c8f6690"
+          }
+        },
+        {
+          "client_id": "463079984436-gn7g34eop8eger2022l46jm6ll97n76q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHIFj6rz-QYk-tUBDPPb03IC3pOSNCPEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463079984436-gn7g34eop8eger2022l46jm6ll97n76q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

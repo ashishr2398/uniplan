@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stats">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="439dp"
+        android:layout_height="925dp"
+        android:src="@drawable/background2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/stats" />
+
+    <Button
+        android:id="@+id/taskbutton"
+        android:layout_width="106dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="372dp"
+        android:background="@color/black"
+        android:fontFamily="@font/avenir"
+        android:text="To-do"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.324"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signinbutton"
+        app:layout_constraintVertical_bias="0.234"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/notesbutton"
+        android:layout_width="106dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="276dp"
+        android:background="@color/black"
+        android:fontFamily="@font/avenir"
+        android:text="Notes"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.324"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signinbutton"
+        app:layout_constraintVertical_bias="0.234"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/studybutton"
+        android:layout_width="106dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="180dp"
+        android:background="@color/black"
+        android:fontFamily="@font/avenir"
+        android:text="study"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.324"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signinbutton"
+        app:layout_constraintVertical_bias="0.234"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        android:id="@+id/crossbutton"
+        android:layout_width="56dp"
+        android:layout_height="59dp"
+        android:background="#000000"
+        android:contentDescription="@string/cross"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/gifImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gifImageView"
+        app:layout_constraintVertical_bias="0.933"
+        app:srcCompat="@drawable/cross" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
